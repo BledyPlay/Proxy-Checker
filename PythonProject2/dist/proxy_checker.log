@@ -1,0 +1,391 @@
+2024-12-17 00:56:46,376 - INFO - Processing proxy file: C:/Users/serzh/OneDrive/Рабочий стол/working_proxies.txt with protocol: http
+2024-12-17 00:56:46,379 - DEBUG - Checking proxy: 103.154.118.154:57413 with protocol: http
+2024-12-17 00:56:46,379 - DEBUG - Checking proxy: 34.93.71.227:8660 with protocol: http
+2024-12-17 00:56:46,380 - DEBUG - Checking proxy: 34.93.59.75:8660 with protocol: http
+2024-12-17 00:56:46,382 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:46,382 - DEBUG - Checking proxy: 35.161.172.205:3128 with protocol: http
+2024-12-17 00:56:46,383 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:46,383 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:46,383 - DEBUG - Checking proxy: 34.100.187.43:8660 with protocol: http
+2024-12-17 00:56:46,385 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:46,386 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:48,047 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 31
+2024-12-17 00:56:48,048 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:56:48,689 - DEBUG - http://ip-api.com:80 "GET /json/35.161.172.205 HTTP/11" 200 305
+2024-12-17 00:56:48,750 - INFO - Saved to database: 35.161.172.205:3128 | United States
+2024-12-17 00:56:48,750 - INFO - 35.161.172.205:3128 is working | Country: United States
+2024-12-17 00:56:48,750 - DEBUG - Checking proxy: 34.100.220.171:8660 with protocol: http
+2024-12-17 00:56:48,750 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:51,394 - ERROR - Error while checking proxy: 
+2024-12-17 00:56:51,394 - ERROR - 34.93.59.75:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2270>, 'Connection to 34.93.59.75 timed out. (connect timeout=5)')))
+2024-12-17 00:56:51,394 - DEBUG - Checking proxy: 117.0.82.216:10008 with protocol: http
+2024-12-17 00:56:51,394 - ERROR - 103.154.118.154:57413 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE1670>, 'Connection to 103.154.118.154 timed out. (connect timeout=5)')))
+2024-12-17 00:56:51,395 - DEBUG - Checking proxy: 16.162.134.170:3128 with protocol: http
+2024-12-17 00:56:51,395 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:51,395 - ERROR - 34.100.187.43:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF4140>, 'Connection to 34.100.187.43 timed out. (connect timeout=5)')))
+2024-12-17 00:56:51,395 - DEBUG - Checking proxy: 34.93.221.237:8660 with protocol: http
+2024-12-17 00:56:51,395 - ERROR - 34.93.71.227:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE1F40>, 'Connection to 34.93.71.227 timed out. (connect timeout=5)')))
+2024-12-17 00:56:51,396 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:51,396 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:51,397 - DEBUG - Checking proxy: 34.100.252.141:8660 with protocol: http
+2024-12-17 00:56:51,410 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:53,755 - ERROR - 34.100.220.171:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2600>, 'Connection to 34.100.220.171 timed out. (connect timeout=5)')))
+2024-12-17 00:56:53,755 - DEBUG - Checking proxy: 34.100.218.166:8660 with protocol: http
+2024-12-17 00:56:53,756 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:56,411 - ERROR - 34.100.252.141:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6390>, 'Connection to 34.100.252.141 timed out. (connect timeout=5)')))
+2024-12-17 00:56:56,411 - ERROR - 34.93.221.237:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5B20>, 'Connection to 34.93.221.237 timed out. (connect timeout=5)')))
+2024-12-17 00:56:56,411 - ERROR - 16.162.134.170:3128 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE0BC0>, 'Connection to 16.162.134.170 timed out. (connect timeout=5)')))
+2024-12-17 00:56:56,413 - DEBUG - Checking proxy: 34.100.192.154:8660 with protocol: http
+2024-12-17 00:56:56,411 - DEBUG - Checking proxy: 34.93.43.249:8660 with protocol: http
+2024-12-17 00:56:56,411 - DEBUG - Checking proxy: 34.100.229.97:8660 with protocol: http
+2024-12-17 00:56:56,411 - ERROR - 117.0.82.216:10008 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF4E90>, 'Connection to 117.0.82.216 timed out. (connect timeout=5)')))
+2024-12-17 00:56:56,414 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:56,414 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:56,414 - DEBUG - Checking proxy: 34.93.15.205:8660 with protocol: http
+2024-12-17 00:56:56,415 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:56,417 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:56:58,772 - ERROR - 34.100.218.166:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF67AD0>, 'Connection to 34.100.218.166 timed out. (connect timeout=5)')))
+2024-12-17 00:56:58,772 - DEBUG - Checking proxy: 34.93.10.7:8660 with protocol: http
+2024-12-17 00:56:58,773 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:01,424 - ERROR - 34.100.229.97:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE0470>, 'Connection to 34.100.229.97 timed out. (connect timeout=5)')))
+2024-12-17 00:57:01,424 - DEBUG - Checking proxy: 34.93.12.79:8660 with protocol: http
+2024-12-17 00:57:01,425 - ERROR - 34.100.192.154:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE0B90>, 'Connection to 34.100.192.154 timed out. (connect timeout=5)')))
+2024-12-17 00:57:01,425 - DEBUG - Checking proxy: 34.93.155.104:8660 with protocol: http
+2024-12-17 00:57:01,425 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:01,426 - ERROR - 34.93.15.205:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6BD0>, 'Connection to 34.93.15.205 timed out. (connect timeout=5)')))
+2024-12-17 00:57:01,426 - DEBUG - Checking proxy: 38.156.72.18:8080 with protocol: http
+2024-12-17 00:57:01,426 - ERROR - 34.93.43.249:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF67D10>, 'Connection to 34.93.43.249 timed out. (connect timeout=5)')))
+2024-12-17 00:57:01,427 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:01,427 - DEBUG - Checking proxy: 35.178.104.4:80 with protocol: http
+2024-12-17 00:57:01,427 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:01,428 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:02,708 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 30
+2024-12-17 00:57:02,709 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:03,326 - DEBUG - http://ip-api.com:80 "GET /json/35.178.104.4 HTTP/11" 200 305
+2024-12-17 00:57:03,389 - INFO - Saved to database: 35.178.104.4:80 | United Kingdom
+2024-12-17 00:57:03,389 - INFO - 35.178.104.4:80 is working | Country: United Kingdom
+2024-12-17 00:57:03,389 - DEBUG - Checking proxy: 103.180.122.116:9090 with protocol: http
+2024-12-17 00:57:03,390 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:03,775 - ERROR - 34.93.10.7:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7470>, 'Connection to 34.93.10.7 timed out. (connect timeout=5)')))
+2024-12-17 00:57:03,775 - DEBUG - Checking proxy: 20.205.61.143:8123 with protocol: http
+2024-12-17 00:57:03,776 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:06,438 - ERROR - 38.156.72.18:8080 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF44A0>, 'Connection to 38.156.72.18 timed out. (connect timeout=5)')))
+2024-12-17 00:57:06,438 - ERROR - 34.93.12.79:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE1AC0>, 'Connection to 34.93.12.79 timed out. (connect timeout=5)')))
+2024-12-17 00:57:06,438 - DEBUG - Checking proxy: 34.93.36.161:8660 with protocol: http
+2024-12-17 00:57:06,438 - ERROR - 34.93.155.104:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF65D0>, 'Connection to 34.93.155.104 timed out. (connect timeout=5)')))
+2024-12-17 00:57:06,438 - DEBUG - Checking proxy: 34.93.25.3:8660 with protocol: http
+2024-12-17 00:57:06,439 - DEBUG - Checking proxy: 61.129.2.212:8080 with protocol: http
+2024-12-17 00:57:06,445 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:06,446 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:06,454 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:06,924 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 32
+2024-12-17 00:57:06,933 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:07,626 - DEBUG - http://ip-api.com:80 "GET /json/20.205.61.143 HTTP/11" 200 339
+2024-12-17 00:57:07,681 - INFO - Saved to database: 20.205.61.143:8123 | Hong Kong
+2024-12-17 00:57:07,681 - INFO - 20.205.61.143:8123 is working | Country: Hong Kong
+2024-12-17 00:57:07,681 - DEBUG - Checking proxy: 34.93.42.100:8660 with protocol: http
+2024-12-17 00:57:07,683 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:08,399 - ERROR - 103.180.122.116:9090 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5460>, 'Connection to 103.180.122.116 timed out. (connect timeout=5)')))
+2024-12-17 00:57:08,399 - DEBUG - Checking proxy: 34.93.180.113:8660 with protocol: http
+2024-12-17 00:57:08,400 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:09,227 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 31
+2024-12-17 00:57:09,525 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:10,252 - DEBUG - http://ip-api.com:80 "GET /json/61.129.2.212 HTTP/11" 200 266
+2024-12-17 00:57:10,325 - INFO - Saved to database: 61.129.2.212:8080 | China
+2024-12-17 00:57:10,325 - INFO - 61.129.2.212:8080 is working | Country: China
+2024-12-17 00:57:10,325 - DEBUG - Checking proxy: 103.158.27.88:1212 with protocol: http
+2024-12-17 00:57:10,326 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:11,466 - ERROR - 34.93.25.3:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2060>, 'Connection to 34.93.25.3 timed out. (connect timeout=5)')))
+2024-12-17 00:57:11,466 - ERROR - 34.93.36.161:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF67B00>, 'Connection to 34.93.36.161 timed out. (connect timeout=5)')))
+2024-12-17 00:57:11,466 - DEBUG - Checking proxy: 34.100.216.44:8660 with protocol: http
+2024-12-17 00:57:11,466 - DEBUG - Checking proxy: 103.134.27.152:8080 with protocol: http
+2024-12-17 00:57:11,467 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:11,472 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:12,694 - ERROR - 34.93.42.100:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE23C0>, 'Connection to 34.93.42.100 timed out. (connect timeout=5)')))
+2024-12-17 00:57:12,694 - DEBUG - Checking proxy: 203.150.128.244:8080 with protocol: http
+2024-12-17 00:57:12,700 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:13,410 - ERROR - 34.93.180.113:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF69C0>, 'Connection to 34.93.180.113 timed out. (connect timeout=5)')))
+2024-12-17 00:57:13,410 - DEBUG - Checking proxy: 34.93.184.57:8660 with protocol: http
+2024-12-17 00:57:13,411 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:15,334 - ERROR - 103.158.27.88:1212 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE1D30>, 'Connection to 103.158.27.88 timed out. (connect timeout=5)')))
+2024-12-17 00:57:15,334 - DEBUG - Checking proxy: 111.1.61.49:3128 with protocol: http
+2024-12-17 00:57:15,335 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:16,482 - ERROR - 103.134.27.152:8080 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF44D0>, 'Connection to 103.134.27.152 timed out. (connect timeout=5)')))
+2024-12-17 00:57:16,482 - ERROR - 34.100.216.44:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6F30>, 'Connection to 34.100.216.44 timed out. (connect timeout=5)')))
+2024-12-17 00:57:16,482 - DEBUG - Checking proxy: 34.93.30.81:8660 with protocol: http
+2024-12-17 00:57:16,482 - DEBUG - Checking proxy: 34.93.232.181:8660 with protocol: http
+2024-12-17 00:57:16,489 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:16,489 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:17,714 - ERROR - 203.150.128.244:8080 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF14080>, 'Connection to 203.150.128.244 timed out. (connect timeout=5)')))
+2024-12-17 00:57:17,714 - DEBUG - Checking proxy: 86.109.3.23:9400 with protocol: http
+2024-12-17 00:57:17,715 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:18,416 - ERROR - 34.93.184.57:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2180>, 'Connection to 34.93.184.57 timed out. (connect timeout=5)')))
+2024-12-17 00:57:18,416 - DEBUG - Checking proxy: 34.100.233.45:8660 with protocol: http
+2024-12-17 00:57:18,417 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:18,620 - ERROR - 86.109.3.23:9400 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 502 Bad Gateway')))
+2024-12-17 00:57:18,620 - DEBUG - Checking proxy: 34.93.211.195:8660 with protocol: http
+2024-12-17 00:57:18,622 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:20,343 - ERROR - 111.1.61.49:3128 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2840>, 'Connection to 111.1.61.49 timed out. (connect timeout=5)')))
+2024-12-17 00:57:20,343 - DEBUG - Checking proxy: 34.93.83.145:8660 with protocol: http
+2024-12-17 00:57:20,344 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:21,509 - ERROR - 34.93.232.181:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5310>, 'Connection to 34.93.232.181 timed out. (connect timeout=5)')))
+2024-12-17 00:57:21,509 - DEBUG - Checking proxy: 34.93.89.127:8660 with protocol: http
+2024-12-17 00:57:21,509 - ERROR - 34.93.30.81:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF4770>, 'Connection to 34.93.30.81 timed out. (connect timeout=5)')))
+2024-12-17 00:57:21,510 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:21,510 - DEBUG - Checking proxy: 34.93.133.179:8660 with protocol: http
+2024-12-17 00:57:21,512 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:23,428 - ERROR - 34.100.233.45:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF148F0>, 'Connection to 34.100.233.45 timed out. (connect timeout=5)')))
+2024-12-17 00:57:23,428 - DEBUG - Checking proxy: 34.93.69.14:8660 with protocol: http
+2024-12-17 00:57:23,429 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:23,633 - ERROR - 34.93.211.195:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5850>, 'Connection to 34.93.211.195 timed out. (connect timeout=5)')))
+2024-12-17 00:57:23,633 - DEBUG - Checking proxy: 34.100.129.48:8660 with protocol: http
+2024-12-17 00:57:23,634 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:25,356 - ERROR - 34.93.83.145:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6510>, 'Connection to 34.93.83.145 timed out. (connect timeout=5)')))
+2024-12-17 00:57:25,356 - DEBUG - Checking proxy: 34.100.199.2:8660 with protocol: http
+2024-12-17 00:57:25,357 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:26,524 - ERROR - 34.93.89.127:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7050>, 'Connection to 34.93.89.127 timed out. (connect timeout=5)')))
+2024-12-17 00:57:26,524 - DEBUG - Checking proxy: 34.93.56.70:8660 with protocol: http
+2024-12-17 00:57:26,524 - ERROR - 34.93.133.179:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6D80>, 'Connection to 34.93.133.179 timed out. (connect timeout=5)')))
+2024-12-17 00:57:26,524 - DEBUG - Checking proxy: 34.93.13.206:8660 with protocol: http
+2024-12-17 00:57:26,526 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:26,531 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:28,442 - ERROR - 34.93.69.14:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE1970>, 'Connection to 34.93.69.14 timed out. (connect timeout=5)')))
+2024-12-17 00:57:28,442 - DEBUG - Checking proxy: 18.133.16.21:80 with protocol: http
+2024-12-17 00:57:28,443 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:28,646 - ERROR - 34.100.129.48:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE0410>, 'Connection to 34.100.129.48 timed out. (connect timeout=5)')))
+2024-12-17 00:57:28,646 - DEBUG - Checking proxy: 34.93.61.255:8660 with protocol: http
+2024-12-17 00:57:28,651 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:28,756 - ERROR - 18.133.16.21:80 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')))
+2024-12-17 00:57:28,756 - DEBUG - Checking proxy: 34.93.73.149:8660 with protocol: http
+2024-12-17 00:57:28,757 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:30,383 - ERROR - 34.100.199.2:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE0380>, 'Connection to 34.100.199.2 timed out. (connect timeout=5)')))
+2024-12-17 00:57:30,384 - DEBUG - Checking proxy: 34.100.149.146:8660 with protocol: http
+2024-12-17 00:57:30,386 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:31,543 - ERROR - 34.93.56.70:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5A30>, 'Connection to 34.93.56.70 timed out. (connect timeout=5)')))
+2024-12-17 00:57:31,543 - DEBUG - Checking proxy: 34.100.134.111:8660 with protocol: http
+2024-12-17 00:57:31,543 - ERROR - 34.93.13.206:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5970>, 'Connection to 34.93.13.206 timed out. (connect timeout=5)')))
+2024-12-17 00:57:31,543 - DEBUG - Checking proxy: 218.205.43.68:99 with protocol: http
+2024-12-17 00:57:31,545 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:31,546 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:33,663 - ERROR - 34.93.61.255:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF41D0>, 'Connection to 34.93.61.255 timed out. (connect timeout=5)')))
+2024-12-17 00:57:33,663 - DEBUG - Checking proxy: 34.93.89.174:8660 with protocol: http
+2024-12-17 00:57:33,664 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:33,773 - ERROR - 34.93.73.149:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF14A70>, 'Connection to 34.93.73.149 timed out. (connect timeout=5)')))
+2024-12-17 00:57:33,773 - DEBUG - Checking proxy: 34.100.161.228:8660 with protocol: http
+2024-12-17 00:57:33,774 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:35,388 - ERROR - 34.100.149.146:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5790>, 'Connection to 34.100.149.146 timed out. (connect timeout=5)')))
+2024-12-17 00:57:35,388 - DEBUG - Checking proxy: 34.93.43.182:8660 with protocol: http
+2024-12-17 00:57:35,394 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:36,558 - ERROR - 34.100.134.111:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6F00>, 'Connection to 34.100.134.111 timed out. (connect timeout=5)')))
+2024-12-17 00:57:36,558 - DEBUG - Checking proxy: 34.100.177.152:8660 with protocol: http
+2024-12-17 00:57:36,558 - ERROR - 218.205.43.68:99 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6C90>, 'Connection to 218.205.43.68 timed out. (connect timeout=5)')))
+2024-12-17 00:57:36,558 - DEBUG - Checking proxy: 34.93.20.91:8660 with protocol: http
+2024-12-17 00:57:36,559 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:36,561 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:38,683 - ERROR - 34.93.89.174:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF4530>, 'Connection to 34.93.89.174 timed out. (connect timeout=5)')))
+2024-12-17 00:57:38,683 - DEBUG - Checking proxy: 216.229.112.25:8080 with protocol: http
+2024-12-17 00:57:38,684 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:38,775 - ERROR - 34.100.161.228:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE19A0>, 'Connection to 34.100.161.228 timed out. (connect timeout=5)')))
+2024-12-17 00:57:38,775 - DEBUG - Checking proxy: 34.100.164.189:8660 with protocol: http
+2024-12-17 00:57:38,777 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:40,394 - ERROR - 34.93.43.182:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE3560>, 'Connection to 34.93.43.182 timed out. (connect timeout=5)')))
+2024-12-17 00:57:40,394 - DEBUG - Checking proxy: 34.93.111.241:8660 with protocol: http
+2024-12-17 00:57:40,394 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:41,519 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 33
+2024-12-17 00:57:41,520 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:41,562 - ERROR - 34.93.20.91:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF4440>, 'Connection to 34.93.20.91 timed out. (connect timeout=5)')))
+2024-12-17 00:57:41,562 - DEBUG - Checking proxy: 95.216.36.231:8889 with protocol: http
+2024-12-17 00:57:41,562 - ERROR - 34.100.177.152:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF57C0>, 'Connection to 34.100.177.152 timed out. (connect timeout=5)')))
+2024-12-17 00:57:41,562 - DEBUG - Checking proxy: 34.93.186.216:8660 with protocol: http
+2024-12-17 00:57:41,568 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:41,569 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:42,175 - DEBUG - http://ip-api.com:80 "GET /json/216.229.112.25 HTTP/11" 200 316
+2024-12-17 00:57:42,248 - INFO - Saved to database: 216.229.112.25:8080 | United States
+2024-12-17 00:57:42,248 - INFO - 216.229.112.25:8080 is working | Country: United States
+2024-12-17 00:57:42,248 - DEBUG - Checking proxy: 20.206.106.192:8123 with protocol: http
+2024-12-17 00:57:42,249 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:42,630 - ERROR - 95.216.36.231:8889 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable')))
+2024-12-17 00:57:42,630 - DEBUG - Checking proxy: 102.0.14.156:8080 with protocol: http
+2024-12-17 00:57:42,631 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:43,788 - ERROR - 34.100.164.189:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7470>, 'Connection to 34.100.164.189 timed out. (connect timeout=5)')))
+2024-12-17 00:57:43,788 - DEBUG - Checking proxy: 189.91.65.174:423 with protocol: http
+2024-12-17 00:57:43,789 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:44,450 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 33
+2024-12-17 00:57:44,452 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:45,048 - DEBUG - http://ip-api.com:80 "GET /json/20.206.106.192 HTTP/11" 200 328
+2024-12-17 00:57:45,106 - INFO - Saved to database: 20.206.106.192:8123 | Brazil
+2024-12-17 00:57:45,106 - INFO - 20.206.106.192:8123 is working | Country: Brazil
+2024-12-17 00:57:45,106 - DEBUG - Checking proxy: 20.210.113.32:8123 with protocol: http
+2024-12-17 00:57:45,107 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:45,406 - ERROR - 34.93.111.241:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF679B0>, 'Connection to 34.93.111.241 timed out. (connect timeout=5)')))
+2024-12-17 00:57:45,406 - DEBUG - Checking proxy: 12.165.234.129:16096 with protocol: http
+2024-12-17 00:57:45,407 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:46,578 - ERROR - 34.93.186.216:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5610>, 'Connection to 34.93.186.216 timed out. (connect timeout=5)')))
+2024-12-17 00:57:46,578 - DEBUG - Checking proxy: 116.107.99.29:10000 with protocol: http
+2024-12-17 00:57:46,578 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:47,150 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 32
+2024-12-17 00:57:47,152 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:47,216 - ERROR - 189.91.65.174:423 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002905DEE19D0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')))
+2024-12-17 00:57:47,216 - DEBUG - Checking proxy: 35.176.148.8:3128 with protocol: http
+2024-12-17 00:57:47,217 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:47,492 - ERROR - 35.176.148.8:3128 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')))
+2024-12-17 00:57:47,492 - DEBUG - Checking proxy: 34.93.226.221:8660 with protocol: http
+2024-12-17 00:57:47,493 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:47,647 - ERROR - 102.0.14.156:8080 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6150>, 'Connection to 102.0.14.156 timed out. (connect timeout=5)')))
+2024-12-17 00:57:47,647 - DEBUG - Checking proxy: 34.93.98.172:8660 with protocol: http
+2024-12-17 00:57:47,654 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:47,936 - DEBUG - http://ip-api.com:80 "GET /json/20.210.113.32 HTTP/11" 200 305
+2024-12-17 00:57:48,022 - INFO - Saved to database: 20.210.113.32:8123 | Japan
+2024-12-17 00:57:48,022 - INFO - 20.210.113.32:8123 is working | Country: Japan
+2024-12-17 00:57:48,022 - DEBUG - Checking proxy: 20.111.54.16:8123 with protocol: http
+2024-12-17 00:57:48,022 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:49,077 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 31
+2024-12-17 00:57:49,078 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:49,678 - DEBUG - http://ip-api.com:80 "GET /json/20.111.54.16 HTTP/11" 200 324
+2024-12-17 00:57:49,738 - INFO - Saved to database: 20.111.54.16:8123 | France
+2024-12-17 00:57:49,738 - INFO - 20.111.54.16:8123 is working | Country: France
+2024-12-17 00:57:49,738 - DEBUG - Checking proxy: 34.100.169.193:8660 with protocol: http
+2024-12-17 00:57:49,739 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:51,598 - ERROR - 116.107.99.29:10000 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE0B60>, 'Connection to 116.107.99.29 timed out. (connect timeout=5)')))
+2024-12-17 00:57:51,598 - DEBUG - Checking proxy: 34.93.131.104:8660 with protocol: http
+2024-12-17 00:57:51,599 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:52,494 - ERROR - 34.93.226.221:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5E50>, 'Connection to 34.93.226.221 timed out. (connect timeout=5)')))
+2024-12-17 00:57:52,494 - DEBUG - Checking proxy: 103.144.181.74:80 with protocol: http
+2024-12-17 00:57:52,495 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:52,668 - ERROR - 34.93.98.172:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6000>, 'Connection to 34.93.98.172 timed out. (connect timeout=5)')))
+2024-12-17 00:57:52,668 - DEBUG - Checking proxy: 64.71.151.20:8888 with protocol: http
+2024-12-17 00:57:52,669 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:53,027 - ERROR - Error while checking proxy: 
+2024-12-17 00:57:53,648 - ERROR - 12.165.234.129:16096 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=5)
+2024-12-17 00:57:53,648 - DEBUG - Checking proxy: 34.93.222.202:8660 with protocol: http
+2024-12-17 00:57:53,649 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:54,752 - ERROR - 34.100.169.193:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7BF0>, 'Connection to 34.100.169.193 timed out. (connect timeout=5)')))
+2024-12-17 00:57:54,752 - DEBUG - Checking proxy: 34.93.203.163:8660 with protocol: http
+2024-12-17 00:57:54,753 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:55,997 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 33
+2024-12-17 00:57:55,998 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:56,614 - ERROR - 34.93.131.104:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF679E0>, 'Connection to 34.93.131.104 timed out. (connect timeout=5)')))
+2024-12-17 00:57:56,614 - DEBUG - Checking proxy: 34.93.237.73:8660 with protocol: http
+2024-12-17 00:57:56,615 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:56,714 - DEBUG - http://ip-api.com:80 "GET /json/64.71.151.20 HTTP/11" 200 309
+2024-12-17 00:57:56,772 - INFO - Saved to database: 64.71.151.20:8888 | United States
+2024-12-17 00:57:56,773 - INFO - 64.71.151.20:8888 is working | Country: United States
+2024-12-17 00:57:56,773 - DEBUG - Checking proxy: 20.205.61.143:80 with protocol: http
+2024-12-17 00:57:56,774 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:57,503 - ERROR - 103.144.181.74:80 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF14860>, 'Connection to 103.144.181.74 timed out. (connect timeout=5)')))
+2024-12-17 00:57:57,503 - DEBUG - Checking proxy: 47.237.67.157:3128 with protocol: http
+2024-12-17 00:57:57,508 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:58,616 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 32
+2024-12-17 00:57:58,617 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:57:58,655 - ERROR - 34.93.222.202:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7F50>, 'Connection to 34.93.222.202 timed out. (connect timeout=5)')))
+2024-12-17 00:57:58,655 - DEBUG - Checking proxy: 34.93.159.4:8660 with protocol: http
+2024-12-17 00:57:58,662 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:59,301 - DEBUG - http://ip-api.com:80 "GET /json/20.205.61.143 HTTP/11" 200 339
+2024-12-17 00:57:59,372 - INFO - Saved to database: 20.205.61.143:80 | Hong Kong
+2024-12-17 00:57:59,372 - INFO - 20.205.61.143:80 is working | Country: Hong Kong
+2024-12-17 00:57:59,373 - DEBUG - Checking proxy: 34.93.241.37:8660 with protocol: http
+2024-12-17 00:57:59,374 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:57:59,767 - ERROR - 34.93.203.163:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7260>, 'Connection to 34.93.203.163 timed out. (connect timeout=5)')))
+2024-12-17 00:57:59,767 - DEBUG - Checking proxy: 34.100.248.28:8660 with protocol: http
+2024-12-17 00:57:59,768 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:01,623 - ERROR - 34.93.237.73:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE27E0>, 'Connection to 34.93.237.73 timed out. (connect timeout=5)')))
+2024-12-17 00:58:01,623 - DEBUG - Checking proxy: 103.80.98.23:8080 with protocol: http
+2024-12-17 00:58:01,629 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:02,512 - ERROR - 47.237.67.157:3128 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE1F40>, 'Connection to 47.237.67.157 timed out. (connect timeout=5)')))
+2024-12-17 00:58:02,512 - DEBUG - Checking proxy: 34.93.193.191:8660 with protocol: http
+2024-12-17 00:58:02,512 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:03,667 - ERROR - 34.93.159.4:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF14E60>, 'Connection to 34.93.159.4 timed out. (connect timeout=5)')))
+2024-12-17 00:58:03,667 - DEBUG - Checking proxy: 34.93.218.34:8660 with protocol: http
+2024-12-17 00:58:03,672 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:04,383 - ERROR - 34.93.241.37:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF49B0>, 'Connection to 34.93.241.37 timed out. (connect timeout=5)')))
+2024-12-17 00:58:04,383 - DEBUG - Checking proxy: 34.93.214.179:8660 with protocol: http
+2024-12-17 00:58:04,384 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:04,772 - ERROR - 34.100.248.28:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE1A00>, 'Connection to 34.100.248.28 timed out. (connect timeout=5)')))
+2024-12-17 00:58:04,772 - DEBUG - Checking proxy: 34.93.11.127:8660 with protocol: http
+2024-12-17 00:58:04,777 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:06,644 - ERROR - 103.80.98.23:8080 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF656D0>, 'Connection to 103.80.98.23 timed out. (connect timeout=5)')))
+2024-12-17 00:58:06,644 - DEBUG - Checking proxy: 34.100.153.54:8660 with protocol: http
+2024-12-17 00:58:06,645 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:07,516 - ERROR - 34.93.193.191:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF655E0>, 'Connection to 34.93.193.191 timed out. (connect timeout=5)')))
+2024-12-17 00:58:07,516 - DEBUG - Checking proxy: 123.126.158.50:80 with protocol: http
+2024-12-17 00:58:07,517 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:07,806 - ERROR - 123.126.158.50:80 HTTP check failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-17 00:58:07,806 - DEBUG - Checking proxy: 34.93.83.219:8660 with protocol: http
+2024-12-17 00:58:07,807 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:08,687 - ERROR - 34.93.218.34:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2330>, 'Connection to 34.93.218.34 timed out. (connect timeout=5)')))
+2024-12-17 00:58:08,687 - DEBUG - Checking proxy: 34.93.192.155:8660 with protocol: http
+2024-12-17 00:58:08,687 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:09,387 - ERROR - 34.93.214.179:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7020>, 'Connection to 34.93.214.179 timed out. (connect timeout=5)')))
+2024-12-17 00:58:09,387 - DEBUG - Checking proxy: 34.100.215.215:8660 with protocol: http
+2024-12-17 00:58:09,389 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:09,794 - ERROR - 34.93.11.127:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7BC0>, 'Connection to 34.93.11.127 timed out. (connect timeout=5)')))
+2024-12-17 00:58:09,794 - DEBUG - Checking proxy: 34.93.112.3:8660 with protocol: http
+2024-12-17 00:58:09,801 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:11,646 - ERROR - 34.100.153.54:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF7470>, 'Connection to 34.100.153.54 timed out. (connect timeout=5)')))
+2024-12-17 00:58:11,646 - DEBUG - Checking proxy: 3.108.115.48:3128 with protocol: http
+2024-12-17 00:58:11,647 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:12,815 - ERROR - 34.93.83.219:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6270>, 'Connection to 34.93.83.219 timed out. (connect timeout=5)')))
+2024-12-17 00:58:12,815 - DEBUG - Checking proxy: 34.93.231.38:8660 with protocol: http
+2024-12-17 00:58:12,816 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:13,695 - ERROR - 34.93.192.155:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF44D0>, 'Connection to 34.93.192.155 timed out. (connect timeout=5)')))
+2024-12-17 00:58:13,695 - DEBUG - Checking proxy: 34.93.57.73:8660 with protocol: http
+2024-12-17 00:58:13,696 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:14,395 - ERROR - 34.100.215.215:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF4B60>, 'Connection to 34.100.215.215 timed out. (connect timeout=5)')))
+2024-12-17 00:58:14,395 - DEBUG - Checking proxy: 195.19.217.200:3128 with protocol: http
+2024-12-17 00:58:14,396 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:14,802 - ERROR - 34.93.112.3:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2870>, 'Connection to 34.93.112.3 timed out. (connect timeout=5)')))
+2024-12-17 00:58:14,802 - DEBUG - Checking proxy: 34.100.238.108:8660 with protocol: http
+2024-12-17 00:58:14,807 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:15,978 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 32
+2024-12-17 00:58:15,979 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:58:16,605 - DEBUG - http://ip-api.com:80 "GET /json/3.108.115.48 HTTP/11" 200 299
+2024-12-17 00:58:16,620 - ERROR - 195.19.217.200:3128 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002905DEF6240>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')))
+2024-12-17 00:58:16,620 - DEBUG - Checking proxy: 34.93.169.241:8660 with protocol: http
+2024-12-17 00:58:16,621 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:16,680 - INFO - Saved to database: 3.108.115.48:3128 | India
+2024-12-17 00:58:16,680 - INFO - 3.108.115.48:3128 is working | Country: India
+2024-12-17 00:58:16,680 - DEBUG - Checking proxy: 34.93.190.165:8660 with protocol: http
+2024-12-17 00:58:16,681 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:17,830 - ERROR - 34.93.231.38:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF4680>, 'Connection to 34.93.231.38 timed out. (connect timeout=5)')))
+2024-12-17 00:58:17,830 - DEBUG - Checking proxy: 34.100.229.37:8660 with protocol: http
+2024-12-17 00:58:17,830 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:18,704 - ERROR - 34.93.57.73:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5550>, 'Connection to 34.93.57.73 timed out. (connect timeout=5)')))
+2024-12-17 00:58:18,704 - DEBUG - Checking proxy: 34.93.144.121:8660 with protocol: http
+2024-12-17 00:58:18,705 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:19,807 - ERROR - 34.100.238.108:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF6510>, 'Connection to 34.100.238.108 timed out. (connect timeout=5)')))
+2024-12-17 00:58:19,807 - DEBUG - Checking proxy: 34.100.189.71:8660 with protocol: http
+2024-12-17 00:58:19,813 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:21,626 - ERROR - 34.93.169.241:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2990>, 'Connection to 34.93.169.241 timed out. (connect timeout=5)')))
+2024-12-17 00:58:21,626 - DEBUG - Checking proxy: 189.91.65.174:82 with protocol: http
+2024-12-17 00:58:21,627 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:21,688 - ERROR - 34.93.190.165:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE23F0>, 'Connection to 34.93.190.165 timed out. (connect timeout=5)')))
+2024-12-17 00:58:21,688 - DEBUG - Checking proxy: 34.100.136.22:8660 with protocol: http
+2024-12-17 00:58:21,695 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:22,838 - ERROR - 34.100.229.37:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DF65310>, 'Connection to 34.100.229.37 timed out. (connect timeout=5)')))
+2024-12-17 00:58:22,838 - DEBUG - Checking proxy: 117.72.47.92:8899 with protocol: http
+2024-12-17 00:58:22,839 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:23,725 - ERROR - 34.93.144.121:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE1310>, 'Connection to 34.93.144.121 timed out. (connect timeout=5)')))
+2024-12-17 00:58:23,725 - DEBUG - Checking proxy: 182.253.26.196:8080 with protocol: http
+2024-12-17 00:58:23,730 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:24,829 - ERROR - 34.100.189.71:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2180>, 'Connection to 34.100.189.71 timed out. (connect timeout=5)')))
+2024-12-17 00:58:24,829 - DEBUG - Checking proxy: 24.152.58.123:3128 with protocol: http
+2024-12-17 00:58:24,830 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:25,063 - ERROR - 189.91.65.174:82 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002905DEF59A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')))
+2024-12-17 00:58:25,063 - DEBUG - Checking proxy: 18.133.16.21:1080 with protocol: http
+2024-12-17 00:58:25,064 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:25,355 - ERROR - 18.133.16.21:1080 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')))
+2024-12-17 00:58:25,355 - DEBUG - Checking proxy: 111.1.61.47:3128 with protocol: http
+2024-12-17 00:58:25,356 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:26,709 - ERROR - 34.100.136.22:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF5FA0>, 'Connection to 34.100.136.22 timed out. (connect timeout=5)')))
+2024-12-17 00:58:26,709 - DEBUG - Checking proxy: 34.100.142.32:8660 with protocol: http
+2024-12-17 00:58:26,715 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-12-17 00:58:28,739 - ERROR - 182.253.26.196:8080 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF67E0>, 'Connection to 182.253.26.196 timed out. (connect timeout=5)')))
+2024-12-17 00:58:29,843 - ERROR - 24.152.58.123:3128 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEF59D0>, 'Connection to 24.152.58.123 timed out. (connect timeout=5)')))
+2024-12-17 00:58:30,362 - ERROR - 111.1.61.47:3128 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE07A0>, 'Connection to 111.1.61.47 timed out. (connect timeout=5)')))
+2024-12-17 00:58:30,970 - DEBUG - https://httpbin.org:443 "GET /ip HTTP/11" 200 31
+2024-12-17 00:58:30,972 - DEBUG - Starting new HTTP connection (1): ip-api.com:80
+2024-12-17 00:58:31,719 - ERROR - Error while checking proxy: 
+2024-12-17 00:58:31,719 - ERROR - 34.100.142.32:8660 HTTP check failed: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002905DEE2A20>, 'Connection to 34.100.142.32 timed out. (connect timeout=5)')))
+2024-12-17 00:58:31,766 - DEBUG - http://ip-api.com:80 "GET /json/117.72.47.92 HTTP/11" 200 350
+2024-12-17 00:58:31,838 - INFO - Saved to database: 117.72.47.92:8899 | China
+2024-12-17 00:58:31,838 - INFO - 117.72.47.92:8899 is working | Country: China
